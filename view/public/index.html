@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sensor Data</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+  <div class="contenedor">
+    <h1>Dispensador de croquetas</h1>
+    <div class="info">
+      <p>Contenedor de croquetas: <span id="Distancia">--</span></p>
+    </div>
+    <p><button onclick="getData()">Actualizar</button></p>
+    <p><button onclick="getGirar()">Girar Motor</button></p>
+  </div>
+  <script src="socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
